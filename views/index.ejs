@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .flex{
+            position: relative;
+        }
+        .buttonoverload{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="flex h-screen bg-[#E6E7EB] justify-center items-center">
+        <div>
+            <h1 class="text-2xl">Welcome to home page</h1>
+        </div>
+        <div class="buttonoverload">
+            <form action="/logout">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white mx-4 my-4 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Logout</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
